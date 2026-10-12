@@ -1,0 +1,21 @@
+{
+  "product_id": "M1143892015LR",
+  "acquisition_date": "2013-11-20T14:15:22Z",
+  "nodata_value": 0,
+  "intensity_scale": 1.0,
+  "intensity_offset": 0.0,
+  "intensity_units": "DN",
+  "intensity_domain": [
+    0.0,
+    255.0
+  ],
+  "gsd_m": 0.5,
+  "solar_elevation_deg": 35.0,
+  "sun_vector": [
+    0.579,
+    0.579,
+    0.574
+  ],
+  "vector_frame": "LUNAR_LOCAL_ENU",
+  "provenance": "NASA PDS Lunar Reconnaissance Orbiter LROC Archive"
+}

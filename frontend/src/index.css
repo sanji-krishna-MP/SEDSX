@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary-navy: #020617;
+  --secondary-navy: #0b1329;
+  --card-navy: #0f172a;
+  --surface-navy: #131d38;
+  --border-navy: #1e293b;
+  --border-subtle: #24344d;
+  
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  
+  --shadow-glow: 0 0 25px rgba(59, 130, 246, 0.25);
+  --shadow-glow-cyan: 0 0 20px rgba(6, 182, 212, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--primary-navy);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Deep Space Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Consistent Space-Navy Card & Panel Styles */
+.card {
+  background: var(--card-navy);
+  border: 1px solid var(--border-navy);
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--border-subtle);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 0 15px rgba(59, 130, 246, 0.08);
+}
+
+/* Theme Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.badge-blue { background: rgba(59, 130, 246, 0.15); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.35); }
+.badge-cyan { background: rgba(6, 182, 212, 0.15); color: #67e8f9; border: 1px solid rgba(6, 182, 212, 0.35); }
+.badge-green { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.35); }
+.badge-amber { background: rgba(245, 158, 11, 0.15); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.35); }
+.badge-red { background: rgba(239, 68, 68, 0.15); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.35); }
+.badge-slate { background: rgba(148, 163, 184, 0.12); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.25); }
+
+/* Progress bar out of 100 in Dark Theme */
+.progress-bar-bg {
+  background: #1e293b;
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 6px;
+  width: 100%;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.4s ease;
+}
+
+/* Comparison curtain divider handle */
+.curtain-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #38bdf8;
+  cursor: ew-resize;
+  z-index: 20;
+  box-shadow: 0 0 14px rgba(56, 189, 248, 0.8), 0 0 30px rgba(59, 130, 246, 0.5);
+}
+.curtain-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 28px;
+  height: 28px;
+  background: #0f172a;
+  border: 2px solid #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================================================================= */
+/* COSMIC PARALLAX BACKGROUND STYLES & SEAMLESS REPEATING STAR LAYERS       */
+/* ========================================================================= */
+
+.cosmic-star-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.cosmic-star-layer::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: inherit;
+}
+
+.cosmic-star-1 {
+  width: 1px;
+  height: 1px;
+}
+
+.cosmic-star-2 {
+  width: 2px;
+  height: 2px;
+}
+
+.cosmic-star-3 {
+  width: 3px;
+  height: 3px;
+}
+
+@keyframes cosmicMoveStars {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+.animate-stars-slow {
+  animation: cosmicMoveStars 180s linear infinite;
+}
+
+.animate-stars-medium {
+  animation: cosmicMoveStars 120s linear infinite;
+}
+
+.animate-stars-fast {
+  animation: cosmicMoveStars 70s linear infinite;
+}
+
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-fade {
+  animation: heroFade 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Accessibility: prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-stars-slow,
+  .animate-stars-medium,
+  .animate-stars-fast,
+  .animate-hero-fade {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

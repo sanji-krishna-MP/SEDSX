@@ -1,0 +1,391 @@
+{
+  "communities": {
+    "0": [
+      "backend_app_image_processing",
+      "backend_app_image_processing_build_valid_mask",
+      "backend_app_image_processing_compute_comparison_metrics",
+      "backend_app_image_processing_compute_preprocessing_metrics",
+      "backend_app_image_processing_convert_to_float_grayscale",
+      "backend_app_image_processing_decode_image_array",
+      "backend_app_image_processing_extract_features_and_match",
+      "backend_app_image_processing_find_connected_border_mask",
+      "backend_app_image_processing_fit_robust_transformation",
+      "backend_app_image_processing_py_any",
+      "backend_app_image_processing_py_ndarray",
+      "backend_app_image_processing_rationale_1154",
+      "backend_app_image_processing_rationale_117",
+      "backend_app_image_processing_rationale_13",
+      "backend_app_image_processing_rationale_161",
+      "backend_app_image_processing_rationale_31",
+      "backend_app_image_processing_rationale_400",
+      "backend_app_image_processing_rationale_481",
+      "backend_app_image_processing_rationale_58",
+      "backend_app_image_processing_rationale_669",
+      "backend_app_image_processing_render_visual_assets",
+      "backend_app_models",
+      "backend_app_models_imagemetadata",
+      "backend_app_models_matchpoint",
+      "backend_app_models_metricdetail",
+      "backend_app_models_runconfig",
+      "backend_app_models_runfullresponse",
+      "backend_app_models_runsummary",
+      "backend_app_routes",
+      "backend_app_routes_execute_run",
+      "backend_app_routes_py_any",
+      "backend_app_routes_rationale_35",
+      "backend_tests_test_metrics",
+      "backend_tests_test_metrics_rationale_122",
+      "backend_tests_test_metrics_rationale_15",
+      "backend_tests_test_metrics_rationale_66",
+      "backend_tests_test_metrics_testmetrics",
+      "backend_tests_test_metrics_testmetrics_test_edge_cases",
+      "backend_tests_test_metrics_testmetrics_test_synthetic_alignment_and_metrics",
+      "backend_tests_test_metrics_testmetrics_test_worked_examples_section_13",
+      "basemodel",
+      "datetime",
+      "fastapi_responses",
+      "keypoint",
+      "logging",
+      "pydantic",
+      "time",
+      "typing",
+      "unittest",
+      "uuid"
+    ],
+    "1": [
+      "frontend_src_app",
+      "frontend_src_app_app",
+      "frontend_src_app_viewstate",
+      "frontend_src_components_evidencesidebar",
+      "frontend_src_components_evidencesidebar_evidencesidebar",
+      "frontend_src_components_evidencesidebar_evidencesidebarprops",
+      "frontend_src_components_formulamodal",
+      "frontend_src_components_formulamodal_formulamodal",
+      "frontend_src_components_formulamodal_formulamodalprops",
+      "frontend_src_components_historyview",
+      "frontend_src_components_historyview_historyview",
+      "frontend_src_components_historyview_historyviewprops",
+      "frontend_src_components_landingpage",
+      "frontend_src_components_landingpage_landingpage",
+      "frontend_src_components_landingpage_landingpageprops",
+      "frontend_src_components_landingpage_lunaralignlogo",
+      "frontend_src_components_metricstabs",
+      "frontend_src_components_metricstabs_metricstabs",
+      "frontend_src_components_metricstabs_metricstabsprops",
+      "frontend_src_components_navbar",
+      "frontend_src_components_navbar_navbar",
+      "frontend_src_components_navbar_navbarprops",
+      "frontend_src_components_originalspreview",
+      "frontend_src_components_originalspreview_originalspreview",
+      "frontend_src_components_originalspreview_originalspreviewprops",
+      "frontend_src_components_registeredcomparison",
+      "frontend_src_components_registeredcomparison_registeredcomparison",
+      "frontend_src_components_registeredcomparison_registeredcomparisonprops",
+      "frontend_src_components_ui_parallax_cosmic_background",
+      "frontend_src_components_ui_parallax_cosmic_background_cosmicparallaxbg",
+      "frontend_src_components_ui_parallax_cosmic_background_cosmicparallaxbgprops",
+      "frontend_src_components_uploadview",
+      "frontend_src_components_uploadview_uploadview",
+      "frontend_src_components_uploadview_uploadviewprops",
+      "frontend_src_index",
+      "frontend_src_main",
+      "frontend_src_types",
+      "frontend_src_types_checkpointrecord",
+      "frontend_src_types_matchpoint",
+      "frontend_src_types_metricdetail",
+      "frontend_src_types_runfulldata",
+      "frontend_src_types_runsummary",
+      "ref_lucide_react",
+      "ref_react"
+    ],
+    "2": [
+      "frontend_package",
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_lucide_react",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_tailwindcss",
+      "frontend_package_dependencies_tailwindcss_vite",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_lint",
+      "frontend_package_scripts_preview",
+      "frontend_package_type",
+      "frontend_package_version",
+      "frontend_vite_config",
+      "ref_node_url",
+      "ref_oxlint",
+      "ref_react_dom",
+      "ref_tailwindcss",
+      "ref_tailwindcss_vite",
+      "ref_types_node",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_typescript",
+      "ref_vite",
+      "ref_vitejs_plugin_react"
+    ],
+    "3": [
+      "backend_app_database",
+      "backend_app_database_get_db",
+      "backend_app_database_get_run",
+      "backend_app_database_get_run_checkpoints",
+      "backend_app_database_get_run_matches",
+      "backend_app_database_get_run_metrics",
+      "backend_app_database_init_db",
+      "backend_app_database_list_runs",
+      "backend_app_database_py_any",
+      "backend_app_database_save_checkpoints",
+      "backend_app_database_save_matches",
+      "backend_app_database_save_metrics",
+      "backend_app_database_save_run",
+      "backend_app_database_update_run_status",
+      "backend_app_routes_get_matches",
+      "backend_app_routes_get_metrics",
+      "backend_app_routes_get_run_asset",
+      "backend_app_routes_get_run_details",
+      "backend_app_routes_get_runs_list",
+      "backend_app_routes_py_get",
+      "backend_app_routes_rationale_363",
+      "backend_app_routes_rationale_369",
+      "backend_app_routes_rationale_393",
+      "backend_app_routes_rationale_399",
+      "backend_app_routes_rationale_411"
+    ],
+    "4": [
+      "frontend_tsconfig_app",
+      "frontend_tsconfig_app_compileroptions",
+      "frontend_tsconfig_app_compileroptions_allowimportingtsextensions",
+      "frontend_tsconfig_app_compileroptions_baseurl",
+      "frontend_tsconfig_app_compileroptions_ignoredeprecations",
+      "frontend_tsconfig_app_compileroptions_jsx",
+      "frontend_tsconfig_app_compileroptions_lib",
+      "frontend_tsconfig_app_compileroptions_module",
+      "frontend_tsconfig_app_compileroptions_moduledetection",
+      "frontend_tsconfig_app_compileroptions_moduleresolution",
+      "frontend_tsconfig_app_compileroptions_noemit",
+      "frontend_tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "frontend_tsconfig_app_compileroptions_nounusedlocals",
+      "frontend_tsconfig_app_compileroptions_nounusedparameters",
+      "frontend_tsconfig_app_compileroptions_paths",
+      "frontend_tsconfig_app_compileroptions_skiplibcheck",
+      "frontend_tsconfig_app_compileroptions_target",
+      "frontend_tsconfig_app_compileroptions_tsbuildinfofile",
+      "frontend_tsconfig_app_compileroptions_types",
+      "frontend_tsconfig_app_compileroptions_verbatimmodulesyntax",
+      "frontend_tsconfig_app_include"
+    ],
+    "5": [
+      "backend_app_sample_generator",
+      "backend_app_sample_generator_create_sample_dataset",
+      "backend_app_sample_generator_generate_lunar_terrain",
+      "backend_app_sample_generator_py_ndarray",
+      "backend_app_sample_generator_rationale_70",
+      "backend_app_sample_generator_rationale_8",
+      "backend_render_inliers_map",
+      "backend_test_inliers",
+      "backend_test_investigate",
+      "csv",
+      "cv2",
+      "json",
+      "numpy",
+      "os",
+      "scipy_spatial",
+      "shutil",
+      "sqlite3"
+    ],
+    "6": [
+      "frontend_tsconfig_node",
+      "frontend_tsconfig_node_compileroptions",
+      "frontend_tsconfig_node_compileroptions_allowimportingtsextensions",
+      "frontend_tsconfig_node_compileroptions_erasablesyntaxonly",
+      "frontend_tsconfig_node_compileroptions_lib",
+      "frontend_tsconfig_node_compileroptions_module",
+      "frontend_tsconfig_node_compileroptions_moduledetection",
+      "frontend_tsconfig_node_compileroptions_noemit",
+      "frontend_tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "frontend_tsconfig_node_compileroptions_nounusedlocals",
+      "frontend_tsconfig_node_compileroptions_nounusedparameters",
+      "frontend_tsconfig_node_compileroptions_skiplibcheck",
+      "frontend_tsconfig_node_compileroptions_target",
+      "frontend_tsconfig_node_compileroptions_tsbuildinfofile",
+      "frontend_tsconfig_node_compileroptions_types",
+      "frontend_tsconfig_node_compileroptions_verbatimmodulesyntax",
+      "frontend_tsconfig_node_include"
+    ],
+    "7": [
+      "backend_app_routes_cancel_run",
+      "backend_app_routes_create_demo_run",
+      "backend_app_routes_create_run",
+      "backend_app_routes_rationale_209",
+      "backend_app_routes_rationale_304",
+      "backend_app_routes_rationale_421",
+      "backgroundtasks",
+      "post",
+      "uploadfile"
+    ],
+    "8": [
+      "backend_app_main",
+      "backend_app_main_health",
+      "backend_app_main_on_startup",
+      "backend_app_main_py_get",
+      "fastapi",
+      "fastapi_middleware_cors",
+      "on_event",
+      "uvicorn"
+    ],
+    "9": [
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_oxlint",
+      "frontend_package_devdependencies_types_node",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_types_react_dom",
+      "frontend_package_devdependencies_typescript",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitejs_plugin_react"
+    ],
+    "10": [
+      "frontend_oxlintrc",
+      "frontend_oxlintrc_plugins",
+      "frontend_oxlintrc_rules",
+      "frontend_oxlintrc_rules_react_only_export_components",
+      "frontend_oxlintrc_rules_react_rules_of_hooks",
+      "frontend_oxlintrc_schema"
+    ],
+    "11": [
+      "frontend_tsconfig",
+      "frontend_tsconfig_files",
+      "frontend_tsconfig_references"
+    ]
+  },
+  "cohesion": {
+    "0": 0.0963265306122449,
+    "1": 0.1226215644820296,
+    "2": 0.07671957671957672,
+    "3": 0.15666666666666668,
+    "4": 0.09523809523809523,
+    "5": 0.18382352941176472,
+    "6": 0.11764705882352941,
+    "7": 0.25,
+    "8": 0.25,
+    "9": 0.25,
+    "10": 0.3333333333333333,
+    "11": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "backend_app_routes_execute_run",
+      "label": "execute_run()",
+      "degree": 20
+    },
+    {
+      "id": "frontend_tsconfig_app_compileroptions",
+      "label": "compilerOptions",
+      "degree": 19
+    },
+    {
+      "id": "frontend_tsconfig_node_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "backend_app_models_runconfig",
+      "label": "RunConfig",
+      "degree": 13
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 13
+    },
+    {
+      "id": "frontend_src_types_runsummary",
+      "label": "RunSummary",
+      "degree": 13
+    },
+    {
+      "id": "backend_app_database_get_db",
+      "label": "get_db()",
+      "degree": 12
+    },
+    {
+      "id": "backend_app_image_processing_compute_comparison_metrics",
+      "label": "compute_comparison_metrics()",
+      "degree": 11
+    },
+    {
+      "id": "backend_app_models_imagemetadata",
+      "label": "ImageMetadata",
+      "degree": 11
+    },
+    {
+      "id": "frontend_src_app_app",
+      "label": "App()",
+      "degree": 11
+    }
+  ],
+  "surprises": [
+    {
+      "source": "create_demo_run()",
+      "target": "RunConfig",
+      "source_files": [
+        "backend/app/routes.py",
+        "backend/app/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "create_run()",
+      "target": "RunConfig",
+      "source_files": [
+        "backend/app/routes.py",
+        "backend/app/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "create_demo_run()",
+      "target": "ImageMetadata",
+      "source_files": [
+        "backend/app/routes.py",
+        "backend/app/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "create_run()",
+      "target": "ImageMetadata",
+      "source_files": [
+        "backend/app/routes.py",
+        "backend/app/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "on_startup()",
+      "target": "init_db()",
+      "source_files": [
+        "backend/app/main.py",
+        "backend/app/database.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

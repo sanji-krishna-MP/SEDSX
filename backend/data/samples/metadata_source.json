@@ -1,0 +1,21 @@
+{
+  "product_id": "CH2_OHR_NC2_20200815T053012123_D_IMG",
+  "acquisition_date": "2020-08-15T05:30:12Z",
+  "nodata_value": 0,
+  "intensity_scale": 1.0,
+  "intensity_offset": 0.0,
+  "intensity_units": "DN",
+  "intensity_domain": [
+    0.0,
+    255.0
+  ],
+  "gsd_m": 0.25,
+  "solar_elevation_deg": 38.5,
+  "sun_vector": [
+    0.553,
+    0.553,
+    0.622
+  ],
+  "vector_frame": "LUNAR_LOCAL_ENU",
+  "provenance": "ISRO ISSDC Chandrayaan-2 PDS4 Archive"
+}
