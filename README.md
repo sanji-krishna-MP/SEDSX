@@ -1,4 +1,4 @@
-# Chandrayaan-2/3 OHRC & NASA LRO NAC Lunar Image Comparison Engine (v2.0)
+# Chandrayaan-2/3 OHRC & NASA LRO NAC Lunar Image Comparison Engine
 
 A local web application that inputs a **Source image** (ISRO Chandrayaan-2/3 OHRC) and a **Reference image** (NASA LRO NAC), performs full pixel-level preprocessing, establishes terrain correspondences via SIFT and robust affine fitting, and calculates all **20 metric types** (9 Preprocessing metrics per image and 11 Comparison metrics) with normalized display indicators out of 100.
 
