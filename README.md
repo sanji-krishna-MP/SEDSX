@@ -96,3 +96,6 @@ python -m unittest discover -s tests -p "test_*.py" -v
 - **C9**: Sun direction difference ($\Delta S = \arccos(s_s \cdot s_r)$, Solar-direction similarity index $100(1 - \Delta S/180)$)
 - **C10**: Sun elevation difference ($\Delta E = |E_s - E_r|$, Solar-elevation similarity index $100(1 - \Delta E/180)$)
 - **C11**: Sampling ratio ($R = \frac{\max(\text{GSD}_s, \text{GSD}_r)}{\min(\text{GSD}_s, \text{GSD}_r)}$, Sampling compatibility index $\frac{100}{R}$)
+
+
+all these formulaes are used from the offical isro image processing documentation.
